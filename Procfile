@@ -1,1 +1,1 @@
-web: application app::app
+web: reference index.js
