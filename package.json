@@ -1,6 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@coreui/chartjs": "^3.0.0",
