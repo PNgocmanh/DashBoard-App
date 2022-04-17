@@ -2,7 +2,6 @@
   "name": "my-app",
   "version": "0.1.0",
   "main": "index.js",
-  "type": "module",
   "private": true,
   "dependencies": {
     "@coreui/chartjs": "^3.0.0",
@@ -55,11 +54,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "resolve": {
-    "modules": "[resolve(process.cwd(), 'src'), 'node_modules']",
-    "extensions": "['*', '.js', '.jsx', '.json']",
-    "symlinks": "false",
-    "cacheWithContext": "false"
   }
 }
