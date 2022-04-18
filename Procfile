@@ -1,1 +1,1 @@
-web: node ./src/index.js
+web: ./node_modules/webpack-dev-server/bin/webpack-dev-server.js instead of webpack-dev-server
