@@ -127,8 +127,7 @@ class Dashboard extends Component {
   }
 
   render() {
-    const { DataisLoaded, items, ProductData, SurveyData } = this.state
-    const selectKey = this.state.selectKey
+    const { DataisLoaded, items, ProductData, SurveyData } = this.state;
     let sum = this.getSum(items)
     let angry = this.getAngry(items)
     let disgust = this.getDisgust(items)
@@ -225,7 +224,6 @@ class Dashboard extends Component {
             </CCardBody>
           </CCardBody>
         </CCard>
-
         <CRow>
           <CCol xs>
             <CCard className="mb-4">
